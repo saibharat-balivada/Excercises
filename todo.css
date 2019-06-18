@@ -14,22 +14,21 @@ h4 {
 .addingItem > input[type='text'] {
   border: 1px solid #ddd;
   outline: none;
-  font-size: 1.3rem;
+  font-size: 1.286rem;
   border-radius: 0.5rem;
   width: 21.5rem;
   height: 2.571rem;
 }
 button {
   border: none;
-  font-size: 1rem;
   color: dimgrey;
   width: 3.214rem;
   height: 22px;
-  font-size: 17px;
+  font-size: 1rem;
   outline: none;
 }
 span {
-  font-size: 1.643rem;
+  font-size: 1.286rem;
   /* padding-right: 9rem; */
 }
 ul {
@@ -52,7 +51,8 @@ li > input[type='text'] {
   height: 2.571rem;
   border-radius: 0.5rem;
   margin-right: 0.5rem;
-  font-size: 1.643rem;
+  font-size: 1.286rem;
+  color: darkgray;
 }
 /* .edit, .delete {
   width: 3.857rem;
@@ -69,4 +69,5 @@ li > input[type='text'] {
 }
 #completed span {
   text-decoration: line-through;
+  color: dimgrey;
 }
