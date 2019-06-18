@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, sans-serif;
+}
+.container {
+  margin: 0rem 25rem;
+  padding: 6rem 6rem;
+  width: 25rem
+}
+h4 {
+  border-bottom: 1px grey solid;
+}
+.addingItem > input[type='text'] {
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+  width: 21.5rem;
+  height: 2.571rem;
+}
+button {
+  border: none;
+  font-size: 1rem;
+  color: dimgrey;
+  width: 3.214rem;
+  height: 22px;
+  font-size: 17px;
+  outline: none;
+}
+span {
+  font-size: 1.643rem;
+  /* padding-right: 9rem; */
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 1.071rem 0;
+  border-bottom: 1px grey solid;
+  height: 3.5rem;
+}
+li > input[type='checkbox'] {
+margin-right: 0.8571rem;
+position: static;
+}
+li > input[type='text'] {
+  border: 1px solid #ddd;
+  outline: none;
+  width: 13.36rem;
+  height: 2.571rem;
+  border-radius: 0.5rem;
+  margin-right: 0.5rem;
+  font-size: 1.643rem;
+}
+/* .edit, .delete {
+  width: 3.857rem;
+  margin: 0 0.2857rem;
+} */
+.add:hover {
+  color: green;
+}
+.edit:hover {
+  color: black;
+}
+.delete:hover {
+  color: brown;
+}
+#completed span {
+  text-decoration: line-through;
+}
